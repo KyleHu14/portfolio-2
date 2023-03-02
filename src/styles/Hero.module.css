@@ -1,0 +1,80 @@
+.heroContainer {
+	color: white;
+	/* border: 2px solid white; */
+
+	/* Margins */
+	margin-inline: max((100% - 60rem)/2, clamp(2rem, 6vw, 2.5rem));
+	margin-top: 5rem;
+}
+
+.intro {
+	/* Text */
+	font-size: var(--font-size-fluid4);
+	font-weight: 500;
+}
+
+.introName {
+	/* Display */
+	display: inline;
+
+	/* Color */
+	color: #519aca;
+}
+
+.desc {
+	/* Fonts */
+	font-size: var(--font-size-fluid1);
+	font-weight: 400;
+
+	/* Color */
+	color: #d9d9d9;
+}
+
+/* .contactIcons {
+	display: flex;
+	margin-top: 1.5rem;
+
+	gap: 1rem;
+}
+
+@media (max-width: 580px) {
+	.contactIcons {
+		flex-direction: column;
+	}
+} */
+
+.contactIcons {
+	margin-top: 1rem;
+	display: grid;
+	grid-template-columns: 8rem 6.5rem 7.5rem 8rem;
+}
+
+.gridItem1 {
+	display: inline-block;
+	grid-row: 1;
+}
+.gridItem2 {
+	display: inline-block;
+	grid-row: 1;
+}
+.gridItem3 {
+	display: inline-block;
+	grid-row: 1;
+}
+.gridItem4 {
+	display: inline-block;
+	grid-row: 1;
+}
+
+@media (max-width: 600px) {
+	.contactIcons {
+		row-gap: 1.2rem;
+		grid-template-columns: 8rem;
+	}
+	.gridItem3 {
+		grid-row: 2;
+	}
+	.gridItem4 {
+		grid-row: 2;
+	}
+}

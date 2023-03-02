@@ -1,9 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
-
-.nav-container {
+.navContainer {
 	/* Color */
-	background-color: #1c1e2b;
-	color: white;
+	/* color: #e0fbfc; */
+	color: #ffffff;
 
 	/* Flex */
 	display: flex;
@@ -16,8 +14,9 @@
 	padding-left: 0.7rem;
 	padding-right: 0.7rem;
 
-	/* Fonts */
-	font-family: "Ubuntu", sans-serif;
+	/* Border */
+	/* border-bottom: 0.5rem solid #98c1d9; */
+	border-bottom: 0.5rem solid #3c6e71;
 }
 
 .nav {
@@ -36,13 +35,17 @@ a {
 	text-decoration: none;
 }
 
-.home-link {
+.homeLink {
 	/* Fonts */
 	font-weight: 500;
 	font-size: clamp(1.5rem, 6vw, 2.5rem);
+
+	/* Font color */
+	/* color: #ade8f4; */
+	color: #d9d9d9;
 }
 
-.nav-right {
+.navRight {
 	/* FlexBox */
 	display: flex;
 	align-items: center;
@@ -53,7 +56,8 @@ a {
 	font-size: clamp(1rem, 4vw, 1.5rem);
 }
 
-.right-link:hover {
-	color: rgb(182, 182, 182);
+.rightLink:hover {
+	/* color: #98c1d9; */
+	color: #6d7680;
 	transition: color 1s;
 }

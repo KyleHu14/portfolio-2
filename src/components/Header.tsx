@@ -1,18 +1,18 @@
 import React from "react";
-import "../styles/Header.css";
+import Styles from "../styles/Header.module.css";
 
 const Header = () => {
 	return (
-		<nav className="nav-container">
-			<div className="nav">
-				<a className="home-link" href="/">
+		<nav className={Styles.navContainer}>
+			<div className={Styles.nav}>
+				<a className={Styles.homeLink} href="/">
 					Welcome!
 				</a>
-				<div className="nav-right">
-					<a className="right-link" href="/">
+				<div className={Styles.navRight}>
+					<a className={Styles.righLink} href="/">
 						Projects
 					</a>
-					<a className="right-link" href="/">
+					<a className={Styles.righLink} href="/">
 						Blog
 					</a>
 				</div>

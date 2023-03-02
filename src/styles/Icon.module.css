@@ -1,0 +1,18 @@
+.iconContainer {
+	/* Flex */
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
+
+	/* Pointer */
+	cursor: pointer;
+}
+
+.icon {
+	width: 2rem;
+	height: 2rem;
+}
+
+.iconDesc {
+	font-size: var(--font-size-fluid0);
+}

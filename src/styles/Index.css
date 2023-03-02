@@ -1,8 +1,20 @@
-body {
-	margin: 0;
-	padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+:root {
+	--font-size-fluid0: clamp(0.7rem, 2vw, 1.2rem);
+	--font-size-fluid1: clamp(1rem, 4vw, 1.5rem);
+	--font-size-fluid2: clamp(1.5rem, 6vw, 2.5rem);
+	--font-size-fluid3: clamp(2rem, 9vw, 3.5rem);
+	--font-size-fluid4: clamp(2.5rem, 11vw, 4.5rem);
 }
 
 body {
-	background-color: #1c1e2b;
+	/* background-color: #293241; */
+	background-color: #252525;
+
+	/* Fonts */
+	font-family: "Ubuntu", sans-serif;
+
+	margin: 0;
+	padding: 0;
 }
